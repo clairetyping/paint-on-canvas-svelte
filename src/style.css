@@ -1,0 +1,27 @@
+
+.App-header {
+    background-color: white; 
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 24px;
+}
+
+#canvas-element {
+    display: block;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    background-color: white; 
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+button, input[type="range"], input[type="color"] {
+    margin: 10px;
+}
